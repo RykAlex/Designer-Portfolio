@@ -1,0 +1,13 @@
+.user {
+  display: flex;
+}
+.user__avatar {
+  width: 57px;
+  height: 57px;
+}
+.user__avatar img {
+  border-radius: 50%;
+}
+.user__name {
+  font-size: 1.06rem;
+}
