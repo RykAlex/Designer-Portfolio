@@ -11,6 +11,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	color: @black;
+
+	&.no-scroll {
+		overflow: hidden;
+	}
 }
 
 *,
@@ -32,6 +36,9 @@ p {
 	margin: 0 0 1rem;
 }
 
+/* Vendor*/
+
+@import "vendor/slick";
 
 
 /* Blocks */
@@ -51,6 +58,13 @@ p {
 @import "blocks/news";
 @import "blocks/articles";
 @import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/modal-work";
+@import "blocks/timeline";
+@import "blocks/progress-bar";
+@import "blocks/contact";
+@import "blocks/form";
+@import "blocks/burger";
 
 /* Helpers */
 
